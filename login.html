@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>login</title>
+  <link rel="stylesheet" href="/assets/css/login.css">
+
+</head>
+    <body>
+        <div class="login">
+            <div class="wrap">
+                <div class="user">
+                    <div class="logo">
+                        <a href="index.html"><img src="/assets/img/logo.png" alt=""></a>
+                    </div>
+                    <div id="toggle-wrap">
+                        <div id="toggle-terms">
+                            <div id="cross">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="terms">
+                        <h2>紹介</h2>
+                        <p class="small">2023年7月25日</p>
+                        <h3>ようこそ、AEON SINEMAへ！</h3>
+                        <p>AEON SINEMAは、最新の映画を楽しむことができる素晴らしい映画館です。</p>
+                        <p>ここでは、様々なジャンルの映画が上映されており、家族連れから映画ファンまで、幅広いお客様に楽しんでいただけること間違いありません。ここでは、様々なジャンルの映画が上映されており、家族連れから映画ファンまで、幅広いお客様に楽しんでいただけること間違いありません。</p>
+                        <h3>Services</h3>
+                        <p>豪華なシアタールームと最先端の映像・音響システムを備えており、まるで映画の世界に入り込んだような感動的な体験を提供します。</p>
+                        <p>また、お客様の快適な映画鑑賞をサポートするために、フレンドリーなスタッフが常駐しており、お好みの映画や上映スケジュールに関するお手伝いをさせていただきます。</p>
+                        <h3>Event</h3>
+                        <p>AEON SINEMAでは、定期的に特別イベントや上映会も開催していますので、ご家族やお友達との素晴らしい時間を過ごすことができるでしょう。</p>
+                        <p>ぜひ、AEON SINEMAで映画の魔法に包まれる素晴らしいひとときをお楽しみください！</p>
+                    </div>
+                    <div class="recovery">
+                        <h2>パスワード再登録</h2>
+                        <p>ご登録いただいた<strong>メールアドレス</strong> に <strong>パスワード</strong> 再登録用のURLをお送りします。</p>
+                        <p>下記にメールアドレスを入力し「メールを送信」ボタンを押して下さい。</p>
+                        <form class="recovery-form" action="" method="post">
+                            <input type="text" class="input" id="user_recover" placeholder="Enter Email or Username Here">
+                            <input type="submit" class="button" value="メールを送信">
+                        </form>
+                        <p class="mssg">入力したメールアドレスにお送りいたしました。</p>
+                    </div>
+                </div>
+                    <div class="form-wrap">
+                    	<div class="tabs">
+                            <h3 class="login-tab"><a class="log-in active" href="#login-tab-content"><span>Login<span></a></h3>
+                    		<h3 class="signup-tab"><a class="sign-up" href="#signup-tab-content"><span>Sign Up</span></a></h3>
+                    	</div>
+                    	<div class="tabs-content">
+                    		<div id="login-tab-content" class="active">
+                    			<form class="login-form" action="" method="post">
+                    				<input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email or Username">
+                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+                    				<input type="checkbox" class="checkbox" checked id="remember_me">
+                    				<label for="remember_me">Remember me</label>
+                    				<input type="submit" class="button" value="Login">
+                    			</form>
+                    			<div class="help-action">
+                    				<p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="forgot" href="#">パスワードを忘れましたか？</a></p>
+                    			</div>
+                    		</div>
+                    		<div id="signup-tab-content">
+                    			<form class="signup-form" action="" method="post">
+                    				<input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
+                    				<input type="text" class="input" id="user_name" autocomplete="off" placeholder="Username">
+                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+                    				<input type="submit" class="button" value="Sign Up">
+                    			</form>
+                    			<div class="help-action">
+                    				<p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="agree" href="#">AEON SINEMA紹介</a></p>
+                    			</div>
+                    		</div>
+                    	</div>
+                	</div>
+                </div>
+            </div>
+        </div>
+        <script src='/assets/js/jquery.min_3.7.0.js'></script>
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>
